@@ -11,7 +11,7 @@ crate-type = ["lib"]
 [dependencies]
 base64 = "0.13"
 thiserror = "1.0"
-error-support = { path = "../error" }
+error-support = { path = "./error" }
 nss = { path = "nss" }
 hawk = { version = "3.2", default-features = false, optional = true }
 ece = { version = "2.1", default-features = false, features = ["serializable-keys"], optional = true }
