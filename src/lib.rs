@@ -49,6 +49,9 @@ pub use hawk;
 #[cfg(feature = "ece")]
 pub use ece;
 
+// Expose low-level nss crates
+pub use nss;
+
 pub use crate::error::{Error, ErrorKind, Result};
 
 /// Only required to be called if you intend to use this library in conjunction

@@ -15,3 +15,4 @@ pub mod pk11;
 pub mod secport;
 pub use crate::error::{Error, ErrorKind, Result};
 pub use util::ensure_nss_initialized as ensure_initialized;
+pub use nss_sys;
